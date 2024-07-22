@@ -32,7 +32,7 @@ def run_quiz(questions):
 
         while not valid_input:  # Loop until valid input is received
             try:
-                answer = int(input("Enter the number of the correct answer: "))
+                answer = int(input("Enter the number of the correct answer:\n"))
 
                 if 1 <= answer <= len(question.options):
                     if question.options[answer - 1] == question.answer:
@@ -63,52 +63,52 @@ def run_quiz(questions):
 # Define the quiz questions
 questions = [
     Question(
-        "What is the chemical symbol for hydrogen?",
+        "What is the chemical symbol for hydrogen?\n",
         ["H", "He", "O", "N"],
         "H"
     ),
     Question(
-        "What planet is known as the Earth's twin?",
+        "What planet is known as the Earth's twin?\n",
         ["Mars", "Venus", "Jupiter", "Saturn"],
         "Venus"
     ),
     Question(
-        "What is the hardest natural substance on Earth?",
+        "What is the hardest natural substance on Earth?\n",
         ["Gold", "Iron", "Diamond", "Platinum"],
         "Diamond"
     ),
     Question(
-        "Who developed the theory of general relativity?",
+        "Who developed the theory of general relativity?\n",
         ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
         "Albert Einstein"
     ),
     Question(
-        "What is the largest organ in the human body?",
+        "What is the largest organ in the human body?\n",
         ["Heart", "Liver", "Skin", "Brain"],
         "Skin"
     ),
     Question(
-        "Who was the first President of the United States?",
+        "Who was the first President of the United States?\n",
         ["Jefferson", "Abraham Lincoln", "George Washington", "John Adams"],
         "George Washington"
     ),
     Question(
-        "In what year did the Titanic sink?",
+        "In what year did the Titanic sink?\n",
         ["1905", "1912", "1920", "1935"],
         "1912"
     ),
     Question(
-        "Who was the British Prime Minister during World War II?",
+        "Who was the British Prime Minister during World War II?\n",
         ["Winston Churchill", "Chamberlain", "Attlee", "Harold Macmillan"],
         "Winston Churchill"
     ),
     Question(
-        "Which empire was ruled by Genghis Khan?",
+        "Which empire was ruled by Genghis Khan?\n",
         ["Roman Empire", "Ottoman Empire", "Mongol Empire", "British Empire"],
         "Mongol Empire"
     ),
     Question(
-        "What was the main cause of the American Civil War?",
+        "What was the main cause of the American Civil War?\n",
         ["Taxation", "Slavery", "Territorial Expansion", "Trade Disputes"],
         "Slavery"
     )
