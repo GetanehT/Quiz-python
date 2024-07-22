@@ -47,3 +47,6 @@ for question in questions:
         print("\nHere are the questions you answered incorrectly:")
         for question, given_answer in incorrect_questions:
             print(f"\nQuestion: {question.prompt}")
+            print(f"Your answer: {given_answer if given_answer is not None else 'Invalid input'}")
+            print(f"Correct answer: {question.answer}")
+
