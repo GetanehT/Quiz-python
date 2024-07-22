@@ -16,5 +16,10 @@ def run_quiz(questions):
     incorrect_questions = []
 
 random.shuffle(questions)  # Shuffle the questions to randomize their order
-for question in questions:
-    print(question.prompt)
+
+# Iterate through each question in the list of questions
+for question in questions: 
+    print(question.prompt) # Print the prompt for the current question
+   
+    for i, option in enumerate(question.options):
+            print(f"{i + 1}. {option}")
