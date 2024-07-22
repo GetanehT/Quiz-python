@@ -21,5 +21,9 @@ random.shuffle(questions)  # Shuffle the questions to randomize their order
 for question in questions: 
     print(question.prompt) # Print the prompt for the current question
    
+   # Iterate through each option for the current question
     for i, option in enumerate(question.options):
-            print(f"{i + 1}. {option}")
+        print(f"{i + 1}. {option}")
+
+    try:
+        answer = int(input("Enter the number of the correct answer: "))       
