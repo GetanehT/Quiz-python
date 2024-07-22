@@ -22,9 +22,10 @@ for question in questions:
     print(question.prompt) # Print the prompt for the current question
    
    # Iterate through each option for the current question
+
     for i, option in enumerate(question.options):
 
-    valid_input = False # Initialize a flag to indicate whether the input is valid
+      valid_input = False # Initialize a flag to indicate whether the input is valid
     while not valid_input: # Continue looping until valid input is provided
 
             try:
@@ -41,3 +42,6 @@ for question in questions:
                 print("Invalid input. Please enter a number corresponding to one of the options.")
 
     print(f"\nYou got {score} out of {len(questions)} correct!")  # Print the final score
+    
+    if incorrect_questions:
+        print("\nHere are the questions you answered incorrectly:")
