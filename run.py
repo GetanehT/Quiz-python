@@ -6,3 +6,9 @@ class Question: # Define the Question class
         self.prompt = prompt
         self.options = options
         self.answer = answer
+ # Define the run_quiz function
+def run_quiz(questions):
+    """
+        which takes one parameter questions. 
+        This parameter is expected to be a list of Question objects.
+    """
