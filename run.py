@@ -45,3 +45,5 @@ for question in questions:
     
     if incorrect_questions:
         print("\nHere are the questions you answered incorrectly:")
+        for question, given_answer in incorrect_questions:
+            print(f"\nQuestion: {question.prompt}")
