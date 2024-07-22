@@ -14,3 +14,5 @@ def run_quiz(questions):
     """
     score = 0
     incorrect_questions = []
+
+random.shuffle(questions)  # Shuffle the questions to randomize their order
