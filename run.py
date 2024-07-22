@@ -12,3 +12,5 @@ def run_quiz(questions):
         which takes one parameter questions. 
         This parameter is expected to be a list of Question objects.
     """
+    score = 0
+    incorrect_questions = []
