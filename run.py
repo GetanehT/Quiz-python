@@ -1,3 +1,12 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+
+class Question: # Define the Question class
+    def __init__(self, prompt, options, answer):
+        """
+        which takes one parameter questions. 
+        This parameter is expected to be a list of Question objects.
+        """
+        self.prompt = prompt
+        self.options = options
+        self.answer = answer
+
