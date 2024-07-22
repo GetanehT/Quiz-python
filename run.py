@@ -27,7 +27,7 @@ for question in questions:
 
     valid_input = False
     while not valid_input:
-          try:
+            try:
                 answer = int(input("Enter the number of the correct answer: "))
                 if 1 <= answer <= len(question.options):  # Ensure the answer is within the range of options
                     if question.options[answer - 1] == question.answer:
@@ -37,4 +37,5 @@ for question in questions:
                     valid_input = True
                 else:
                     print("Please enter a valid number corresponding to one of the options.")
-           
+            except ValueError:
+                print("Invalid input. Please enter a number corresponding to one of the options.")
