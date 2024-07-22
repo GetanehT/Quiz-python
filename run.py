@@ -30,3 +30,8 @@ for question in questions:
         if 1 <= answer <= len(question.options):  # Ensure the answer is within the range of options   
             if question.options[answer - 1] == question.answer:
               score += 1  # Increment score if the answer is correct
+            else:
+                 incorrect_questions.append((question, answer))
+                 valid_input = True
+        else:
+             print("Please enter a valid number corresponding to one of the options.")
