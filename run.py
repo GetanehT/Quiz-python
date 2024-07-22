@@ -23,10 +23,10 @@ for question in questions:
    
    # Iterate through each option for the current question
     for i, option in enumerate(question.options):
-        print(f"{i + 1}. {option}")
 
-    valid_input = False
-    while not valid_input:
+    valid_input = False # Initialize a flag to indicate whether the input is valid
+    while not valid_input: # Continue looping until valid input is provided
+
             try:
                 answer = int(input("Enter the number of the correct answer: "))
                 if 1 <= answer <= len(question.options):  # Ensure the answer is within the range of options
@@ -39,3 +39,5 @@ for question in questions:
                     print("Please enter a valid number corresponding to one of the options.")
             except ValueError:
                 print("Invalid input. Please enter a number corresponding to one of the options.")
+
+    print(f"\nYou got {score} out of {len(questions)} correct!")  # Print the final score
