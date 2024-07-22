@@ -17,5 +17,20 @@ def run_quiz(questions):
     incorrect_questions = []
 
     random.shuffle(questions)  # Shuffle the questions to randomize their order
-
+    for question in questions:
+        print(question.prompt)
+        for i, option in enumerate(question.options):
+            print(f"{i + 1}. {option}")
+        try:
+            answer = int(input("Enter the number of the correct answer: "))
+            if question.options[answer - 1] == question.answer:
+                score += 1  # Increment score if the answer is correct
+            else:
+                incorrect_questions.append((question, answer))
+        except (ValueError, IndexError):
+            print("Invalid input. Please enter a number corresponding to one of the options.")
+            incorrect_questions.append((question, None))
+    
+    print(f"\nYou got {score} out of {len(questions)} correct!")  # Print the final score
+    
     
