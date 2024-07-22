@@ -26,4 +26,5 @@ for question in questions:
         print(f"{i + 1}. {option}")
 
     try:
-        answer = int(input("Enter the number of the correct answer: "))       
+        answer = int(input("Enter the number of the correct answer: "))
+      if 1 <= answer <= len(question.options):  # Ensure the answer is within the range of options   
