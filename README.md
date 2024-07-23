@@ -101,6 +101,8 @@ Testing
 
 Future Updates
 •	Additional Questions: Plan to expand the quiz with a broader range of questions covering more topics and increasing the challenge for users.
+
+![here!](images/screen3.png)
  
 User Interface (UI): Consider developing a graphical user interface (GUI) for a more interactive and visually appealing quiz experience, beyond the console-based interaction.
 
