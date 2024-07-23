@@ -105,7 +105,7 @@ Future Updates
 User Interface (UI): Consider developing a graphical user interface (GUI) for a more interactive and visually appealing quiz experience, beyond the console-based interaction.
 
 
-      ![Screen 2.png!]\screen 2.png   
+      ![image.png!]\screen2.png   
 
 
 Leaderboard: Implement a leaderboard feature to track high scores and encourage users to compete and improve their quiz performance.
