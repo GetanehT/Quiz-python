@@ -4,10 +4,15 @@ Quiz Application
 Contents
 
 •	Introduction
+
 •	Project
+
 o	User goals:
+
 o	Site owner goals
+
 •	Pre development
+
 •	Development
 •	Features
 o	Slow Typing Instructions
