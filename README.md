@@ -1,6 +1,8 @@
 
 Quiz Application
+
 Contents
+
 •	Introduction
 •	Project
 o	User goals:
