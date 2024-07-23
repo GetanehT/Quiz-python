@@ -37,7 +37,7 @@ o	Libraries
 •	Future Updates
 
 •	Validation
-
+ 
 •	Deployment
 
 o	Heroku
@@ -52,8 +52,9 @@ o	Branching the GitHub Repository using GitHub Desktop and Visual Studio Code
 
 
 
-Quiz Application
-Introduction
+                                                                Quiz Application
+
+        Introduction
 
 Welcome to the Quiz Application! This is an interactive console-based quiz game written in Python. Designed to be both educational and entertaining, the quiz covers a variety of topics, including science, history, and general knowledge. Users are challenged with multiple-choice questions, and the application provides immediate feedback on their answers. 
 
@@ -104,12 +105,12 @@ Future Updates
 User Interface (UI): Consider developing a graphical user interface (GUI) for a more interactive and visually appealing quiz experience, beyond the console-based interaction.
 
 
- ![image!](\screen 4.png)
+      \screen 2.png   
 
 
 Leaderboard: Implement a leaderboard feature to track high scores and encourage users to compete and improve their quiz performance.
-
-   \screen 2.png   
+  
+ 
 
 Validation
 •	Input Validation: Ensure that user inputs are validated to prevent errors. Handle invalid inputs gracefully and prompt users to enter valid responses.
