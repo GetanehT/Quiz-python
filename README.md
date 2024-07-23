@@ -14,29 +14,48 @@ o	Site owner goals
 •	Pre development
 
 •	Development
+
 •	Features
+
 o	Slow Typing Instructions
+
 o	Name and profession input
+
 o	Confirm information so far 
+
 o	What the portal checks
+
 o	Error Page
+
 •	Technologies Used
+
 •	Resources
+
 o	Libraries
+
 •	Testing
+
 •	Future Updates
+
 •	Validation
+ 
 •	Deployment
+
 o	Heroku
+
 o	Branching the GitHub Repository using GitHub Desktop and Visual Studio Code
+
 •	Bugs
+
 •	Credits
+
 •	Acknowledgements
 
 
 
-Quiz Application
-Introduction
+                                                                Quiz Application
+
+        Introduction
 
 Welcome to the Quiz Application! This is an interactive console-based quiz game written in Python. Designed to be both educational and entertaining, the quiz covers a variety of topics, including science, history, and general knowledge. Users are challenged with multiple-choice questions, and the application provides immediate feedback on their answers. 
 
