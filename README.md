@@ -1,29 +1,53 @@
-
 Quiz Application
+
 Contents
+
 •	Introduction
+
 •	Project
+
 o	User goals:
+
 o	Site owner goals
+
 •	Pre development
+
 •	Development
+
 •	Features
+
 o	Slow Typing Instructions
+
 o	Name and profession input
+
 o	Confirm information so far 
+
 o	What the portal checks
+
 o	Error Page
+
 •	Technologies Used
+
 •	Resources
+
 o	Libraries
+
 •	Testing
+
 •	Future Updates
+
 •	Validation
+
 •	Deployment
+
 o	Heroku
+
 o	Branching the GitHub Repository using GitHub Desktop and Visual Studio Code
+
 •	Bugs
+
 •	Credits
+
 •	Acknowledgements
 
 
@@ -80,12 +104,12 @@ Future Updates
 User Interface (UI): Consider developing a graphical user interface (GUI) for a more interactive and visually appealing quiz experience, beyond the console-based interaction.
 
 
- 
+ ![image!](\screen 4.png)
 
 
 Leaderboard: Implement a leaderboard feature to track high scores and encourage users to compete and improve their quiz performance.
 
- 
+   \screen 2.png   
 
 Validation
 •	Input Validation: Ensure that user inputs are validated to prevent errors. Handle invalid inputs gracefully and prompt users to enter valid responses.
